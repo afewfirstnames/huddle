@@ -103,8 +103,8 @@ I want to keep focusing on flex-box. I know this layout was simple and there's m
 
 ### Useful resources
 
-- [Example resource 1](https://courses.kevinpowell.co/conquering-responsive-layouts) - This helped me get a strong grasp on flex-box and basic responsive layout fundamentals. Kevin Powell is a wizard! 🪄
+- [Kevin Powell](https://courses.kevinpowell.co/conquering-responsive-layouts) - This helped me get a strong grasp on flex-box and basic responsive layout fundamentals. Kevin Powell is a wizard! 🪄
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/afewfirstnames)
+- Frontend Mentor - [@afewfirstnames](https://www.frontendmentor.io/profile/afewfirstnames)
