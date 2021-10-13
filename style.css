@@ -37,8 +37,26 @@ img {
 
 .container {
   width: 90%;
-  max-width: 1440px;
+  max-width: 1200px;
   margin: 0 auto;
+}
+
+.btn {
+  display: inline-block;
+  background: #fff;
+  color: var(--violet);
+  text-decoration: none;
+  padding: 0.75em 5em;
+  border-radius: 100px;
+  font-size: 0.9rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+  transition: all 0.35s ease-in-out;
+}
+
+.btn:hover,
+.btn:focus {
+  background: var(--soft-mag);
+  color: #fff;
 }
 
 /* Typography */
@@ -64,23 +82,7 @@ h1 {
   padding: 2em 0;
 }
 
-.btn {
-  display: inline-block;
-  background: #fff;
-  color: var(--violet);
-  text-decoration: none;
-  padding: 0.75em 5em;
-  border-radius: 100px;
-  font-size: 0.9rem;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
-  transition: all 0.35s ease-in-out;
-}
-
-.btn:hover,
-.btn:focus {
-  background: var(--soft-mag);
-  color: #fff;
-}
+/* Icons */
 
 .fab {
   border: 1px solid white;
@@ -88,6 +90,7 @@ h1 {
   padding: 0.5em;
   margin: 0.25em;
   transition: all 0.35s ease-in-out;
+  cursor: pointer;
 }
 
 .fab:hover,
@@ -96,16 +99,45 @@ h1 {
   border-color: var(--soft-mag);
 }
 
-@media (min-width: 800px) {
+@media (min-width: 900px) {
   body {
     background-image: url("/images/bg-desktop.svg");
     background-size: cover;
     text-align: left;
   }
 
+  .hero {
+    display: flex;
+    align-items: center;
+    height: 70vh;
+  }
+
+  header {
+    height: 20vh;
+  }
+
   .row {
     display: flex;
-    /* justify-content: space-between;
-    align-items: center; */
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .hero__text {
+    max-width: 500px;
+    align-self: flex-start;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .fab {
+    font-size: 1.313rem;
   }
 }
