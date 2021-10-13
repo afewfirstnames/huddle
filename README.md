@@ -29,72 +29,82 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://awesome-keller-f194fb.netlify.app/)
+- Live Site URL: [live site here](https://awesome-keller-f194fb.netlify.app/)
 
 ## My process
+
+I always start by structuring the HTML and placing the content. Then I move to CSS. I start here by setting global styles and my variables. I work with the mobile-first approach. Once mobile is looking great I find my breakpoints and work from there to add flex-box.
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+I'm still new to CSS so my findings are pretty simple. Reusable classes like a 'container' class can help keep all the content within the same width/gutter size. Mobile-first is new to me as well, and it makes MUCH more sense! I'm still getting flex-box down so I haven't dived too deep into Grid but plan to soon. This project was relatively easy for me! I don't think I nailed it 100% pixel-perfect. But it's pretty close.
 
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (min-width: 900px) {
+  body {
+    background-image: url("/images/bg-desktop.svg");
+    background-size: cover;
+    text-align: left;
+  }
+
+  .hero {
+    display: flex;
+    align-items: center;
+    height: 70vh;
+  }
+
+  header {
+    height: 20vh;
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .hero__text {
+    max-width: 500px;
+    align-self: flex-start;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .fab {
+    font-size: 1.313rem;
+  }
 }
 ```
 
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I want to keep focusing on flex-box. I know this layout was simple and there's much more to learn. Building navigation bars is my next step! I've done it before but I just coded along with a tutorial. If you read this far, thanks. :)
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Example resource 1](https://courses.kevinpowell.co/conquering-responsive-layouts) - This helped me get a strong grasp on flex-box and basic responsive layout fundamentals. Kevin Powell is a wizard! 🪄
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/afewfirstnames)
