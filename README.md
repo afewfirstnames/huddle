@@ -108,3 +108,5 @@ I want to keep focusing on flex-box. I know this layout was simple and there's m
 ## Author
 
 - Frontend Mentor - [@afewfirstnames](https://www.frontendmentor.io/profile/afewfirstnames)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3734493f-dc12-47f5-8b6c-ce023612e32c/deploy-status)](https://app.netlify.com/sites/awesome-keller-f194fb/deploys)
