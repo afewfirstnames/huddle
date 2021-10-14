@@ -46,7 +46,7 @@ img {
   background: #fff;
   color: var(--violet);
   text-decoration: none;
-  padding: 0.75em 5em;
+  padding: 0.75em 4em;
   border-radius: 100px;
   font-size: 0.9rem;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
@@ -129,7 +129,7 @@ h1 {
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   .icons {
@@ -139,5 +139,13 @@ h1 {
 
   .fab {
     font-size: 1.313rem;
+  }
+
+  .btn {
+    font-size: 1.313rem;
+  }
+
+  .logo {
+    max-width: 15rem;
   }
 }
